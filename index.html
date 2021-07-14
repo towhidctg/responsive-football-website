@@ -7,27 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galaxy Foodball News Portal</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b6e60b7bf1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- *******************
+        NAV BAR
+    ************************** -->
     <header>
         <div class="nav-bar">
-            <a href="">Home</a>
-            <a href="">Clubs</a>
-            <a href="">World Cup 2022</a>
-            <a href="">Upcoming Matches</a>
-            <a href="">Contact Us</a>
-            <div class="login">
-                <button>Login</button>
-            </div>
+            <a href="" target="blank">Home</a>
+            <a href="https://www.skysports.com/football/news" target="blank">Clubs</a>
+            <a href="https://www.fifa.com/tournaments/mens/worldcup/qatar2022" target="blank">World Cup 2022</a>
+            <a href="https://www.fifa.com/tournaments" target="blank">Upcoming Matches</a>
+            <a href="https://www.fifa.com/about-fifa/organisation/contact-fifa" target="blank">Contact Us</a>
+            <a class="login" href="" target="blank"><i class="fas fa-sign-in-alt"></i>Login</a>
         </div>
     </header>
     <main>
+        <!-- *******************
+                   TOP-BANNER 
+            *********************-->
         <section>
             <div class="top-banner">
-                <h1>Conmebol <br> Copa America <br> 2021</h1>
+                <div class="top-text">
+                    <h1 id="top-title">Conmebol <br> Copa America <br> 2021</h1>
+                    <a href="https://yalla-live.tv/" target="blank">Watch Now</a>
+                </div>
                 <img class="banner-pic" src="images/banner.png" alt="Football Kick Image">
             </div>
+            <!-- **********************
+            PLAYER DESCRIPTION 
+        ***************************** -->
             <div class="player-description">
                 <div class="players">
                     <article class="player">
@@ -147,11 +158,40 @@
                         </div>
                     </article>
                 </div>
-
-
             </div>
         </section>
     </main>
+    <!-- **********************
+             BOTTOM AREA
+    ************************** -->
+    <section>
+        <div>
+            <div class="live-match">
+                <div class="live-match-description">
+                    <h1>All Highlights <br>Copa America 2021</h1>
+                    <a class="button" href="https://yalla-live.tv/" target="blank">Watch Now</a>
+                </div>
+                <video src="video/ARG - BRA - COPA AMERICA FINAL - 2021.mp4" controls autoplay></video>
+            </div>
+    </section>
+    <!-- ****************************
+                   FOOTER
+    ******************************* -->
+    <footer class="footer">
+        <div>
+            <img src="images/Logo.png" alt="logo">
+            <div class="social-link">
+                <a href="https://www.instagram.com/fifa/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.fifa.com/"><i class="fab fa-dribbble"></i></a>
+                <a href="https://twitter.com/FIFAcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                        class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/user/FIFATV"><i class="fab fa-youtube-square"></i></a>
+            </div>
+            <div class="copyright">
+                <h4>Copyright © 2022 Football</h4>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
